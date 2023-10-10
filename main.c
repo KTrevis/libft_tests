@@ -6,7 +6,7 @@
 /*   By: ketrevis <ketrevis@42.student.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/07 13:38:30 by ketrevis          #+#    #+#             */
-/*   Updated: 2023/10/07 15:50:49 by ketrevis         ###   ########.fr       */
+/*   Updated: 2023/10/10 13:45:55 by ketrevis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,4 +45,6 @@ int	main(void) {
 	strchr_test();
 	strrchr_test();
 	strncmp_test();
+	memchr_test();
+	memcmp_test();
 }

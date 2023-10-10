@@ -26,5 +26,7 @@ void tolower_test(void);
 void strchr_test(void);
 void strrchr_test(void);
 void strncmp_test(void);
+void memchr_test(void);
+void memcmp_test(void);
 
 #endif
