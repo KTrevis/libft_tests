@@ -6,7 +6,7 @@
 /*   By: ketrevis <ketrevis@42.student.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/07 13:38:30 by ketrevis          #+#    #+#             */
-/*   Updated: 2023/10/10 13:45:55 by ketrevis         ###   ########.fr       */
+/*   Updated: 2023/10/10 19:00:01 by ketrevis         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int	main(void) {
 	isalnum_test();
 	isascii_test();
 	isprint_test();
-	strlen_test();	
+	strlen_test();
 	memset_test();
 	bzero_test();
 	memcpy_test();
@@ -47,4 +47,7 @@ int	main(void) {
 	strncmp_test();
 	memchr_test();
 	memcmp_test();
+	strnstr_test();
+	atoi_test();
+	strdup_test();
 }

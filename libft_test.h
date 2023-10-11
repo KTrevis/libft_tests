@@ -28,5 +28,8 @@ void strrchr_test(void);
 void strncmp_test(void);
 void memchr_test(void);
 void memcmp_test(void);
+void strnstr_test(void);
+void atoi_test(void);
+void strdup_test(void);
 
 #endif
