@@ -1,5 +1,6 @@
 #include "libft.h"
 #include "libft_test.h"
+#include <ctype.h>
 
 void	toupper_test(void) {
 	printf("%s\n\ntoupper\n", white());

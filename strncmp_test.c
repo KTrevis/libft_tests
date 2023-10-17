@@ -7,7 +7,13 @@ void	strncmp_test(void) {
 
 	printf("%s\n\nstrncmp\n", white());
 	for (int i = 0; s1[i]; i++) {
+		int original = strncmp(s1, s2, i);
+		int mine = ft_strncmp(s1, s2, i);
 		printf("%s%d.", white(), i + 1);
-		ft_strncmp(s1, s2, i) == strncmp(s1, s2, i) ? OK() : KO();
+		if ((original > 0 && mine > 0) || (original < 0 && mine < 0) || (original == 0 && mine == 0))
+			OK();
+		else
+			KO();
+		
 	}
 }

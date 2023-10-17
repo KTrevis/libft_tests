@@ -1,14 +1,6 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: ketrevis <ketrevis@42.student.fr>          +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/10/07 13:38:30 by ketrevis          #+#    #+#             */
-/*   Updated: 2023/10/10 19:00:01 by ketrevis         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+/* 
+	TODO: itoa, strmapi, striteri
+*/
 
 #include "libft.h"
 #include "libft_test.h"
@@ -50,4 +42,10 @@ int	main(void) {
 	strnstr_test();
 	atoi_test();
 	strdup_test();
+	substr_test();
+	strjoin_test();
+	strtrim_test();
+	itoa_test();
+	strmapi_test();
+	striteri_test();
 }
